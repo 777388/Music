@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Music",
+    "version": "1.0",
+    "background": {
+        "service_worker": "music.js"
+    },
+    "commands": {
+        "Music": {
+            "suggested_key": "Ctrl+Shift+7",
+            "description": "Music Shortcut"
+        }
+    }
+}
